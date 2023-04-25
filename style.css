@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f9d032;
+}
+
+.ob{
+  object-fit: contain;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.bg-yellow {
+  background-color: #f9d032;
+}
+
+.bg-red {
+  background-color: #ff1300;
+}
+
+/* NAVBAR */
+
+.navbar-toggler div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  border-radius: 3px;
+}
+
+.navbar-toggler div:nth-child(2) {
+  width: 75%;
+  margin-left: 25%;
+}
+
+
+.logo img {
+  max-width: 50px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+
+
+
+/* banner */
+
+.title-container {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.bannerimg {
+
+  background:linear-gradient(90deg,#000000 0%,white 0%,rgba(0, 0, 0, 0.4) 0%),
+  url("banner3.jpg") no-repeat center / cover;
+  height: calc(100vh - 300px);
+  color:#f02f2f;
+}
+
+
+@media screen and (min-width: 992px) {
+  .size{
+    font-size: 5rem;
+    letter-spacing: .7;
+  }
+}
+
+.title-container  {
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+}
+
+/* .animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.line {
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+  margin: 0 10px;
+  animation: lineAnim 1.5s ease-in-out infinite;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  animation: circleAnim 1.5s ease-in-out infinite;
+}
+
+@keyframes lineAnim {
+  0% {
+    transform: translateX(-30px);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(-30px);
+  }
+}
+
+@keyframes circleAnim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+
+
+
+/* .bannerimg {
+  position: relative;
+}
+.bannerimg h1 {
+  position: relative;
+  animation-name: neon;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes neon {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff;
+  }
+  50% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #f7c52b, 0 0 80px #f7c52b;
+  }
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff;
+  }
+} */
+
+
+/* FILTERS_SECTION */
+
+
+
+.projects-filter {
+  font-size: 1.1rem;
+}
+
+.projects-filter li:hover {
+  cursor: pointer;
+}
+
+.projects-filter li {
+  position: relative;
+  width: 100%;
+  padding: 1.3rem;
+}
+
+.projects-filter li.selected {
+  background-color: #f02f2f;
+  color: #33333a;
+}
+
+.projects-filter li i {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  display: none;
+}
+
+.projects-filter li.selected i {
+  display: block;
+}
+
+#filter-marketing,
+#filter-coding {
+  border-right: 2px solid grey;
+}
+
+/* CARDS */
+
+
+.si {
+  font-size: 3rem;
+  color:white;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  width: 100px;
+  height: 2px;
+  margin: 10px auto;
+  background-color: #f02f2f;
+  animation: slideIn .5s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.marb {
+ 
+  margin-bottom: 1.2em;
+}
+.card:hover {
+  transform: scale(1.05);
+  z-index: 999;
+  cursor: pointer;
+}
+
+.radius {
+  border-radius: 10px;
+}
+.card-text {
+  font-size: 90%;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.span-card {
+  font-size: 65%;
+}
+
+.cards h2{
+  text-shadow: 1px 2px 3px #ff1300;
+}
+
+/* FORM */
+.ml{
+  margin-left: 15px;
+}
+
+
+.f-header{
+  text-shadow: 1px 2px 3px #ff1300;
+}
+
+.height {
+  height: 50px;
+}
+
+.form{
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 1000px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}

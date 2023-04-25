@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Вработи студенти</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Latest compiled and minified Bootstrap 4.6 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- CSS script -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest Font-Awesome CDN -->
+    <script src="https://kit.fontawesome.com/64087b922b.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-yellow">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar shadow navbar-expand-sm ">
+        <div class="container-fluid">
+          <div class="logo text-center mx-2 ml-4">
+            <a href="Brainsterlab.html">
+              <img src="Brainster-Logo2.png" alt="Brainster logo">
+            </a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div></div>
+            <div></div>
+            <div></div>
+          </button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item m-3">
+                  <a class="nav-link text-dark " href="https://brainster.co/marketing/"><b>Академија за маркетинг</b></a>
+                </li>
+                <li class="nav-item m-3">
+                  <a class="nav-link text-dark " href="https://brainster.co/full-stack/"><b>Академија за програмирање</b></a>
+                </li>
+                <li class="nav-item m-3">
+                  <a class="nav-link text-dark " href="https://brainster.co/data-science/"><b> Академија за data science</b></a>
+                </li>
+                <li class="nav-item m-3">
+                  <a class="nav-link text-dark" href="https://brainster.co/graphic-design/"><b>Академија за дизајн</b></a>
+                </li>
+              </ul>
+
+                <a href="" class="btn bg-red my-2 text-white ml-auto mr-auto"> Вработи наш студент</a>
+          </div>
+        </div>
+      </nav>
+
+<!-- FORM -->
+<form action="link.php" method="POST" class="form container">
+
+  <div class="container-fluid text-center py-5">
+    <h1><b>Вработи студенти</b></h1>
+  </div>
+  <div class="row mb-6 form-group">
+    <div class="col-md-6 mb-2">
+      <label for="name"><b>Име и презиме <span class="text-danger">*</span></b></label>
+      <input type="text" name="name" id="name" class="form-control p-4 mb-3" placeholder="Вашето име и презиме" required>
+    </div>
+    <div class="col-md-6 mb-2">
+      <label for="company"><b>Име на компанија <span class="text-danger">*</span></b></label>
+      <input type="text" name="company" id="company" class="form-control p-4 " placeholder="Име на вашата компанија" required>
+    </div>
+    <div class="col-md-6 mb-2">
+      <label for="email"><b>Контакт eмaјл <span class="text-danger">*</span></b></label>
+      <input type="email" name="email" id="email" class="form-control p-4 mb-3" placeholder="Контакт емајл на вашата компанија" required>
+    </div>
+    <div class="col-md-6 mb-2">
+      <label for="phone"><b>Контакт телефон <span class="text-danger">*</span></b></label>
+      <input type="phone" name="phone" id="phone" class="form-control p-4" placeholder="Контакт телефон на вашата компанија" required>
+    </div>
+    <div class="col-md-6 mb-2">
+      <label for="type"><b>Тип на студенти <span class="text-danger">*</span></b></label>
+      <select class="form-select form-control height" name="type" id="type">
+        <option disabled selected>Изберете тип на студент</option>
+        <option value="marketing">Студенти од маркетинг</option>
+        <option value="programming">Студенти од програмирање</option>
+        <option value="dataScince">Студенти од data science</option>
+        <option value="design">Студенти од дизајн</option>
+      </select>
+    </div>
+    
+    <div class="col-md-6 mb-2 ">
+      <label for="submit"><b>Испрати</b></label>
+      <button type="submit" name="save" class="btn height btn-block p-2 text-center text-white text-uppercase bg-red">Испрати</button>
+    </div>
+ 
+  </div>
+</form>
+
+      
+
+    
+
+    <!-- FOOTER -->
+    <footer class=" container-fluid text-center bg-dark text-light p-3   ">
+      <p class="mb-0">Изработено со ❤️ од студенти на Brainster</p>
+  </footer>
+    
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="ha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+    <!-- Latest Compiled Bootstrap 4.6 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  </body>
+</html>
