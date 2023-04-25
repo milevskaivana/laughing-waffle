@@ -1,0 +1,304 @@
+/* Universal */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color:rgba(39, 40, 51, 1) ;
+    color: white;
+    
+  }
+  
+  h1, h2,h3, p,ul {
+    margin-top: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  .color-white{
+    color:white ;
+}
+  /* Universal */
+
+  /* First-section */
+
+    .flex-container{
+    font-size: 14px;
+      display: flex;
+   }
+
+   .item {
+    padding: 15px;
+}
+
+.mt-50{
+  margin-top:50px ;
+  margin-bottom: 50px;
+}
+
+.ml-35{
+  margin-left: 35px;
+  
+}
+.mr-35{
+  margin-right: 35px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+  
+   
+    .menu ul li{display: inline-block;
+  margin-bottom: 0;
+  list-style-type: none;
+  }
+  
+  .menu ul li :not(:last-child){
+      margin-right: 30px;
+  }
+   /* End MENU */
+
+  .height{
+    height: 75vh;
+}
+
+.height-20{
+  height: 40vh;
+}
+
+.center {
+
+  align-items: center;
+  justify-self: center;}
+
+.display-flex{
+ display:flex ;
+  justify-content: center;
+   
+}
+  .bg-color-red{
+    background-color: #e44c65;
+  }
+/* End First-Section */
+
+/* START SECION-TWO */
+.bg-size{background-size: cover;
+  background-position: center;}
+
+  .bg-color-darkblue-opacity{
+    background-color:rgba(39, 40, 51, .85) ;
+  }
+
+ 
+
+  .align-end
+  {display: flex;
+  align-items: flex-end;}
+
+  .border-color-red{
+   border-top:4px solid #e44c65;}
+
+
+  
+  .bg-img1{
+      background-image: url(picture1.jpg);}
+
+    .width-100{
+      width: 100%;
+    }
+/* END SECTION-TWO */
+
+/* Start SECTION-THREE */
+.border-color-blue{
+  border-left:4px solid  rgb(93, 93, 238);}
+  .bg-img2{
+    background-image: url(picture2.jpeg);}
+
+    .justify-end{
+      display: flex;
+      flex-direction: column;
+      align-items:flex-end ;
+      }
+
+      .relative{
+        position: relative;
+      }
+
+      .absolute{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 30%;
+        
+      }
+
+      .absolute1{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        width: 30%;
+      }
+
+      .bg-img3{
+        background-image: url(picture3.jpg);}
+        
+        .border-color-green{
+          border-right:4px solid  rgb(45, 212, 81); }
+
+/* END SECTION-THREE */
+
+/* SECTION-FOUR */
+
+
+/* END SECTION-FOUR */
+
+.space-around{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+
+}
+
+.width-33{
+  width: 33.333%;
+}
+
+   
+
+.bg-attach{
+    background-attachment: fixed;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.height-30{
+  height: 20vh;
+}
+
+.height-40{
+  height: 40vh;
+}
+
+.email-button{
+  color:#e44c65;
+  background-color: white;
+  padding: 7px 30px;
+  border-radius: 4%;
+  border: 1px solid white;
+}
+
+input{
+  padding: 10px 80px;
+  border: 1px solid white;
+  color: white;
+  background-color: #e44c65;
+border-radius: 4%;
+margin-right: 10px;
+}
+
+.butt
+{
+  
+  padding: 8px 10px;
+  margin-top: 5px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 10%;
+  background:#e44c65;
+  color:white;
+  text-decoration: none;
+}
+
+.block{
+  display:block ;
+}
+
+.lightwhite{
+  background-color:rgba(255, 255, 255, .1) ;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+::placeholder{
+  color: white;
+ 
+}
+
+.bt{
+  padding: 20px;
+  font-size: 30px;
+  
+}
+
+.fs{
+  font-size: 24px;
+}
+
+.t-margin{
+  margin-top: 10px;
+}
+
+
+.fs-email-p{
+  font-size: 28px;}
+.fs-heading{
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+
+.b-margin{
+  margin-bottom: 70px;
+}
+
+.text-align-center{
+  text-align:left;
+  line-height: 30px;
+  
+}
+
+.manga{
+  border:1px solid white ;
+  padding: 6px 15px;
+  margin-bottom: 20px;
+  border-radius: 5%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.margin-Bottom-h{
+  margin-bottom: 20px;
+}
+
+h1{
+  font-size: 42px;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.column{flex-direction: column;}
+
+
+.learn-more{
+  padding:10px 20px ;
+  border:1px solid white ;
+  border-radius: 5%;
+  
+}
+.manga:hover,
+.learn-more:hover{
+  background-color:  rgb(152, 152, 204,0.3);
+}

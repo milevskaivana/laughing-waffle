@@ -1,0 +1,468 @@
+/* CSS RESETS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 16px;
+}
+/* CSS RESETS */
+
+.wrapper {
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+header > h2{
+  margin-top: 3rem;
+}
+
+li, h3, h2, h1, p, figcaption {
+  text-transform: uppercase;
+}
+
+.header-button {
+  background-color: #2D2D2D;
+  color: white;
+  width: fit-content;
+  padding: 1rem 2rem;
+  border: 0;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+/* Menu */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > h3 {
+margin-left: 2rem;    
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav .menu-bars {
+  display: none;
+}
+
+nav li {
+  padding-right: 1.5rem;
+  align-self: center;
+  cursor: pointer;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: none;
+}
+
+.relative{
+  position: relative;
+}
+
+.shadow-1 {
+  box-shadow: 0px 1px 5px 1px rgba(50, 50, 50, .3);
+}
+
+.shadow-2 {
+  box-shadow: 0px 3px 5px 2px rgba(50, 50, 50, .3);
+}
+
+.dropdown {
+  position: absolute;
+  left: -100000.5rem;
+  background: white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+.dropdown-menu {
+  width: 6rem;
+}
+
+.dropdown li {
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.relative:hover .dropdown-menu {
+  left: 0rem;
+}
+/* Colrful boxes */
+.color-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.color-box > div {
+  text-align: center;
+  border-radius: 5px;
+  flex-basis:20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  display: block;
+  font-size: 2rem;
+}
+
+.red,
+.purple,
+.cyan,
+.blue
+{
+  color: white;
+}
+
+.red{
+  background-color: #FF5444;  
+}
+
+.purple{
+  background-color: #A92AB5;
+}
+
+.cyan {
+  background-color: #1EC2A4;
+
+}
+
+.blue {
+  background-color: #278BE0;
+  
+}
+
+/*Demo Container */
+main {
+  background-color: #F8F8F8;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+main input {
+  background-color: #DEDEDE;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+main input:hover {
+  background-color: #2D2D2D;
+  color: white;
+}
+
+main h1 {
+  padding: 2rem ;
+  margin-bottom: 0 ;
+}
+
+main h1, h2, h3, .buttons {
+  text-align: center;
+}
+
+.demo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.demo-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  align-content: space-evenly;
+}
+
+.demo-section > figure {
+  text-align: center;
+  flex-basis: 26%;
+  cursor: pointer;
+}
+
+figure:hover {
+  border: 2px solid rgb(94, 93, 93);
+}
+
+figcaption {
+  padding: 1rem;
+}
+
+/* Container Four */
+
+hr {
+  text-align: center;
+  width: 10%;
+background-color: (0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container-four >  {
+  text-align: center;
+}
+
+.par {
+ 
+  text-align: center;
+}
+
+.container-four > ul {
+  list-style-image: url(arrow.png);
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-around;
+  justify-content: flex-end;
+  height: 15rem;
+
+}
+
+.container-four li {
+  line-height: 8vh;
+}
+
+/* social media */
+.social-media {
+  background-color: #464646;
+  color: white;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.social-media > p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.social {
+  padding: 0.5rem;
+  font-size: .7rem;
+}
+
+.social a {
+  text-decoration: none;
+  color: white;
+}
+
+i {
+  margin-left:1rem ;
+}
+
+/* footer */
+footer {
+  background-color: #020002;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+footer p {
+  text-align: center;
+  flex-basis: 30%;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+
+  html {
+      font-size: 18px;
+  }
+
+  nav > h3 {
+      width: 30%;
+      font-size: 1.5rem;
+  }
+
+  nav ul {
+      flex-basis: 100%;
+      align-self: flex-end;
+  }
+
+  header h2 {
+      font-size: 3rem;
+  }
+
+  header > input[type="button"] {
+      font-size: 1.2rem;
+  }
+
+  .color-box {
+      height: 40vw;
+  }
+
+  .color-box > div {
+      flex-basis: 20%;
+      height: 60%;
+  }
+
+  main input[type="button"] {
+      font-size: 1.1rem;
+  }
+
+  .demo-section {
+      width: 90vw;
+      height: 120vh;
+      align-items: center;
+  }
+
+  .demo-section > figure {
+      flex-basis: 40%;
+      margin: 0;
+  }
+
+  .container-four ul {
+      height: 50vh;
+  }
+
+  .container-four li {
+      height: 15%;
+  }
+
+  .social-media {
+      height: 17vh;
+  }
+
+  footer p {
+      font-size: .7rem;
+      flex-basis: 50%;
+  }
+
+  footer p:last-child {
+      flex-basis: 20%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+
+  nav {
+      justify-content: space-between;
+  }
+
+  nav ul {
+      display: none;
+  }
+
+  nav .menu-bars {
+      display: block;
+      align-self: center;
+      padding-right: .5rem;
+  }
+
+  nav h3 {
+      width: 50%;
+  }
+
+  header h3 {
+      width: 80%;
+  }
+
+  .color-box {
+      height: 170vh;
+      align-content: center;
+  }
+
+  .color-box > div {
+      flex-basis: 60%;
+      height: 30vh;
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      word-spacing: .0001rem;
+  }
+
+  span {
+      font-size: 3rem;
+      font-weight: 200;
+  }
+
+  main input[type="button"] {
+      font-size: 1rem;
+      padding: .5rem .5rem;
+  }
+
+  main h1 {
+      padding: 2rem 0 0 0;
+  }
+
+  .demo-section {
+      justify-content: center;
+      height: 250vh;
+  }
+
+  .demo-section > figure {
+      flex-basis: 80%;
+  }
+
+  .container-four ul {
+      height: 60vh;
+  }
+
+  .container-four li {
+      width: 40%;
+      line-height: 3vh;
+  }
+
+  .social-media {
+      height: 20vh;
+  }
+
+  .social-media > p {
+      font-size: 2rem;
+  }
+
+  .social {
+      font-size: .5rem;
+      padding: 2rem;
+  }
+
+  footer p {
+      font-size: .4rem;
+  }
+}
