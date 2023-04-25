@@ -1,0 +1,28 @@
+.main {
+  background: linear-gradient(90deg, #000000 0%, white 0%, rgba(0, 0, 0, 0.60) 0%), url("home.jpg") no-repeat center / cover ;
+  height: calc(100vh - 70px);
+  
+}
+
+span{
+  color: red;
+}
+.button-bg,
+.bg-blue{
+  background-color: #4900e7;
+}
+
+.bg-silver{
+  background-color: #393939;
+}
+
+img{
+  max-width: 100%;
+}
+
+
+.section{
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
